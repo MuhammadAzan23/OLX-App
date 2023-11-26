@@ -1,0 +1,81 @@
+.main-box {
+  margin-top: 20px;
+  border: 1px solid gray;
+  width: 20rem;
+  border-radius: 4px;
+}
+.top-portion {
+  /* border: 1px solid rgb(47, 255, 0); */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.user-info > h4,
+h6 {
+  font-size: 12px;
+}
+.buttons-portion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.extra {
+  width: 100px;
+}
+.buttons-portion > button {
+  outline: none;
+  text-align: center;
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.btn-phone {
+  background-color: #002f34;
+  color: white;
+  font-size: 14px;
+  padding: 10px 0px;
+  border: none;
+}
+i {
+  margin-right: 10px;
+}
+.btn-chat {
+  background-color: white;
+  border: 1.5px solid #002f34;
+}
+.btn-chat:hover {
+  border: 2.5px solid #002f34;
+}
+.price-title-cont {
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 20px 10px;
+}
+.price-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location > p {
+  display: inline;
+  font-size: 12px;
+}
+.a > p {
+  display: inline;
+  font-size: 12px;
+}
+.time > p {
+  font-size: 12px;
+}
+.description > h6 {
+  width: 40%;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: #F8F8F8;
+}
+.img-cont{
+    margin: 10px;
+    min-width: 130px;
+    max-width: 180px;
+    min-height: 130px;
+    max-height: 190px;
+}
+.img-container> h6{
+    padding: 10px;
+}
+.box-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.ads{
+    border: 1.5px solid rgb(165, 165, 165);
+    border-radius: 4px;
+    background-color: white;
+    margin: 10px;
+}
+.pro{
+    border-radius: 4px;
+}

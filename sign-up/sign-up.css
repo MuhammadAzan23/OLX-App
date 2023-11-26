@@ -1,0 +1,96 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #4070f4;
+}
+.main-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.containers {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 9px;
+}
+.input {
+  outline: none;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 4px;
+  padding: 8px 10px;
+  width: 23vw;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.sign-up {
+  background-color: #0171d3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 132px;
+}
+.text {
+  font-size: 12px;
+  display: inline-block;
+  padding: 0px 10px;
+}
+.login {
+  color: #0171d3;
+  text-decoration: none;
+  font-size: 14px;
+}
+.or {
+  font-size: 14px;
+  color: gray;
+}
+.facebook {
+  background-color: #4267b2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 75px;
+  margin-bottom: 20px;
+}
+i {
+  margin-right: 10px;
+}
+.google {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 8px 83px;
+  margin-bottom: 10px;
+}
+/* modal card  */
+.row {
+  flex-direction: row;
+  text-align: center;
+}
+.modal-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-btn {
+  background-color: #2d60d6;
+  border-radius: 10px;
+  padding: 8px 29px;
+}
+.border {
+  border-radius: 25px;
+}
+.modal-text {
+  color: gray;
+  font-size: 12px;
+}
